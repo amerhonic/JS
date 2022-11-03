@@ -25,3 +25,4 @@ switch (new Date().getDay()) {
     default:
       console.log("Ugodno provedite vikend.");
   }
+// u while petlji je prvi stejtment granica
