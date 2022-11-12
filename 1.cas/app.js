@@ -134,4 +134,4 @@ map1 = new Map([
   ["kruske", 60],
   ["jagode", 80]
 ])
-console.log(map1
+console.log(map1)

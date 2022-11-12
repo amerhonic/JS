@@ -12,10 +12,10 @@ var x;
 x = 22;
 
 // 2. let - Definisanje promenljive za koju postoji mogucnost promene vrednosti.
-let y; // deklarisanje promenljive y (obezbedjivanje lokacijske memorije za promenljivu y)
-y = 14; // inicijalizacija promenljive y (dodela vrednosti vec deklarisanoj promenljivoj y)
+ // deklarisanje promenljive y (obezbedjivanje lokacijske memorije za promenljivu y)
+ // inicijalizacija promenljive y (dodela vrednosti vec deklarisanoj promenljivoj y)
 // let y = 14; - takodje dozvoljeno
-console.log(y);
+
 
 let a, b, c; // korektan nacin deklarisanja promenljivih
 
@@ -25,6 +25,7 @@ let a, b, c; // korektan nacin deklarisanja promenljivih
 
 // Reinicijalizacija promenljive definisane putem let keyword je dozvoljeno
 // u bilo kom prostoru.
+let y=14;
 y = 12;
 console.log(y);
 
@@ -33,7 +34,8 @@ console.log(y);
 {
   //   console.log(y); - prepoznaje se promenljiva iz Global Scope.
   //   Redeklaracija promenljive definisane putem let, u drugom prostoru je dozvoljena.
-  let y = 19;
+  
+  y=19;
   console.log(y);
 }
 //  Ispisuje se 12, odnosno poslednje dodeljena vrednost unutar Global Scope.
