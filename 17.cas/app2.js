@@ -15,3 +15,9 @@ var prom1; // ako ne uradim ovo nije strasno
 
 
 // povlacenje deklaracije // definisanje promenljive na vrhu
+
+
+// let prom1 kasnije deklarisanje promeljive let keyword nije moguce.
+
+
+// const prom1 ; kasnije deklarisanje promenljive preko const nije moguce.
