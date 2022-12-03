@@ -11,7 +11,7 @@ console.log(recenica.length)
 
 // 1.charAt(index) - vraca nam karakter nekog stringa za poslatim indeksom.
 // 2.charCodeAt(index) - vraca nam kod karaktera nekog stringa za poslatim indeksom.
-// 3.string[index(036024)] - vrlo slicno charAt metodi (sa jedno razlikom).
+// 3.string[index(036024)] - vrlo slicno charAt metodi (sa jedno razlikom). //undefined i NaN.
 const novaRecenica = "spava mi se."
 const char1 = novaRecenica.charAt(3)
 const char11 = novaRecenica.charAt(43) // rezultat ce biti prazan string ""
