@@ -7,3 +7,4 @@ const litar=(l,f) => {
 return "broj punih flasa za unetu kolicinu litara je : " + kiks;
 }
 console.log(litar(290,2.6));
+
