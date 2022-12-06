@@ -60,3 +60,4 @@ console.log(nesto("ko osvaja osvojio je jer zeko reto ko osvaja ko osvaja"))
 
 
 //nije dobro.
+// 
