@@ -26,12 +26,12 @@ function neko (rec) {
 
 //
 
-// function nikad (rc,n,m) {
-//     let a="";
-//     let i;
-//     a=rc.slice(n,n+m)
-// } return a;
-// console.log (nikad("recenica nema veze nismo radili" , 7,8))
+ function nikad (rc,n,m) {
+     let a="";
+     let i;
+     a=rc.slice(n,n+m)
+ } return a;
+ console.log (nikad("recenica nema veze nismo radili" , 7,8))
 
 
 
