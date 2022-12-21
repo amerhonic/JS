@@ -29,6 +29,7 @@ const b=0;
 const c=-1;
 console.log(a/b);
  console.log(c/b);
+ 
 
  console.log(typeof Infinity)
  console.log (typeof -Infinity)
