@@ -51,4 +51,14 @@ console.log(Math.E);
 
 // 6. Math.pow(number,power) - vraca broj na stepen;
 
-// 7. Math.sqrt()
+// 7. Math.sqrt(number) - logicno 
+
+// 8. Math.abs(number) - absolute ; 
+
+// 9. Math.sin(number) - sinus;
+
+//10. Math.cos(0)
+
+
+
+// 32. 
