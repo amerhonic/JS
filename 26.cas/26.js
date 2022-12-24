@@ -51,10 +51,18 @@ console.log(pobednik(12,13,13,12))
 
 function najveci(x,y) {
     let i;
-    for (i=x;i>=1;i--) {
+    let c;
+    c=Math.min(x,y)
+    for (i=c;i>=1;i--) {
         if (x%i==0 && y%i==0) {
             return i;
         }
     }
 }
 console.log(najveci(10,4))
+
+
+function nzs(z,d) {
+    let i;
+    
+}
