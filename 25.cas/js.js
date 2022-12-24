@@ -47,7 +47,7 @@ console.log(Math.E);
 
 // 4. Math.trunc() - zna se 
  
-// 5. Math.sign() - -1,0,1;
+// 5. Math.sign() - -1,0,1; 
 
 // 6. Math.pow(number,power) - vraca broj na stepen;
 
