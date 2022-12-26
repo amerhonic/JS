@@ -49,7 +49,7 @@ console.log(pobednik(12,12,12,12))
 console.log(pobednik(12,13,13,12))
 
 
-function najveci(x,y) {
+function najveci(x,y) {+++++++++++++++++++++++++
     let i;
     let c;
     c=Math.min(x,y)
