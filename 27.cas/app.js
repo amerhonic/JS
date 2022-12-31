@@ -38,7 +38,7 @@ console.log(datum);
 
 datum = new Date(86, 0);
 console.log(datum);
-
+7
 datum = new Date(6, 0);
 console.log(datum);
 
