@@ -49,7 +49,7 @@ const brojevi = [5,121,4,31,21,34,5,7,8,-15,-12]
 const brojevi1=brojevi.map((nekako)=>nekako )
 console.log(brojevi1)
 //negativne pomnoziti sa -1 , pozitivne kvadrirati
-//const brojevi [-5,4,3,10,14,-5]
+//onst brojevi [-5,4,3,10,14,-5]
 
 //3. napraviti noiv niz koji sadrzi kvadrate elemenata postojeceg niza ;
 
