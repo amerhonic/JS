@@ -49,9 +49,29 @@ const pomoc = (a,a1) => {
                 parni.push(pomocni[i]);
             }
         }
-        return parni;
+        return pomocni;
         
 
 }
 
 console.log(pomoc(DATA1,DATA2))
+
+
+
+//prof
+
+
+const task = (arr1,arr2)=> {
+const pomoc = arr1.concat(arr2);
+const pomoc2 = [];
+for (let br of pomoc) {
+    if (br%2===0) {
+        pomoc2.push(br);
+
+    }
+}
+pomoc2.unshift(10,20)
+return [pomocni,pomocni2]
+}
+console.log(task(DATA1,DATA2))
+
