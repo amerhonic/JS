@@ -70,3 +70,12 @@ console.log(person2.fullName())
 
 // DOMACI KOJI CE DA IMA VREDNOSTI(PO ZELJI)
  
+
+const snubStr = (str) => {
+    const substrArr=[];
+    for (i=0;i<str.length;i++) {
+        for (let k=i;k<str.length;k++) {
+ substrArr.push(str.slice(i,k+1))           
+        }
+    }
+}
