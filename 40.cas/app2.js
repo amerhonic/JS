@@ -101,4 +101,8 @@ const myCar = {
     myCar.koci();
     console.log(myCar)
 
-    
+
+
+   // set nickName//
+   //set language//
+   
