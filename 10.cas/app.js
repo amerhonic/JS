@@ -54,7 +54,7 @@ for (let i=0; i< recenica.length; i++) {
        novaRecenica+=recenica[i].toUpperCase(); 
     }  
     else if (i===recenica.length-2) {
-       novaRecenica+=recenica[i].toUpperCase();
+       novaRecenica+=recenica[i].toUpperCase();dzenankosuta
     }
     else {
         novaRecenica+=recenica[i];
