@@ -56,6 +56,7 @@ console.log(filter(arr));
 
 
 
+
 //3.
 
 
@@ -66,3 +67,27 @@ console.log(filter(arr));
 
 let size = Object.keys(student).length;
 console.log(size)
+
+
+
+
+
+
+
+const kljucevi = Object.keys(student)
+
+
+
+
+//3.
+ const keyToValues = (obj) => {
+  const keys =Object.keys(obj);
+  const values = Object.values(obj);
+  const newObj = {
+  };
+  for (let i = 0;i<values.length-1;i++) {
+    newObj[values[i]]=keys[i];
+
+  }
+  return newObj;
+}
