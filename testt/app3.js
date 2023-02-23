@@ -59,3 +59,5 @@ const CART_DATA = [
     return `You got ${itemi} items in cart , shipping cost is ${postarina},your total is ${klopp}  `
   }
 console.log(funkcija(CART_DATA))
+
+
