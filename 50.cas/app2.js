@@ -37,6 +37,32 @@ const dajgi = [1,2,3,4]
     promise
     .then((dajgi)=> console.log(dajgi))
     .catch((error)=> console.log(error))
-    .finally(()=> console.log("uvek"))
+    .finally(()=> console.log(""))
 
-    
+
+
+    //
+function funkcija(string) {
+const poslati = new Promise ((resolve,reject) => {
+  let brojac=0;
+  string1=string.toLowerCase();
+
+  for (i=0;i<string1.length;i++) {
+    if (string[i]==="a" || string[i]==="e" || string[i]==="i" || string[i]==="o" || string[i]==="u") {
+      brojac++;
+    }
+  }
+  if (brojac>10) {
+    resolve(string);
+
+  } else {
+    reject("nece");
+  }
+} ) 
+
+ poslati
+.then((string)=> console.log("string zadovoljava uslov"))
+.catch((error)=> console.log("string ne zadovoljava uslov"))
+.finally(() => console.log("funkcija uspesno izvrsena"))
+}
+console.log(funkcija)
