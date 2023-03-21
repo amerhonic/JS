@@ -4,24 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="./dajgi.css" />
-    <title>DOM</title>
+    <script src="./js.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>LOGO</h1>
+    <div class="nav">
+      <h1 id="logo">Item Lister</h1>
       <input type="text" placeholder="Search Items..." />
-    </header>
-    <div class="container" id="main">
-      <h1 id="add">Add Items</h1>
-      <input type="text" />
-      <button type="submit">Submit</button>
-      <h2 id="subtitle">Items</h2>
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
+    </div>
+    <div class="main">
+      <div class="hero">
+        <h1>Add Items</h1>
+        <br />
+        <input type="text" />
+        <button type="button">Submit</button><br />
+        <h1>Items</h1>
+
+        <div class="item" id="first">
+          <p>Item1</p>
+          <button type="button">X</button>
+        </div>
+        <div class="item">
+          <p>Item2</p>
+          <button type="button">X</button>
+        </div>
+        <div class="item">
+          <p>Item3</p>
+          <button type="button">X</button>
+        </div>
+        <div class="item" id="last">
+          <p>Item4</p>
+          <button type="button">X</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
