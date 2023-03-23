@@ -23,14 +23,16 @@ body {
   padding-left: 10px;
 }
 .main {
-  height: 86 vh;
+  min-height: 86 vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 .main .hero {
   border: 1px solid rgb(192, 183, 183);
   width: 70vw;
-  height: 65vh;
+  height: auto;
+  min-height: 65vh;
   margin-top: 10vh;
   border-radius: 5px;
 }
@@ -45,7 +47,7 @@ body {
   border-radius: 5px;
   width: 30vw;
 }
-.hero button {
+#btn {
   height: 2rem;
   border-radius: 5px;
   background-color: rgb(36, 34, 34);
@@ -55,36 +57,45 @@ body {
   width: 5rem;
   cursor: pointer;
 }
-.hero .items {
-  border: 1px solid rgb(192, 183, 183);
-  width: 95%;
-  margin: auto;
-  border-radius: 5px;
-  height: 49.8%;
+.btn-text {
+  color: #fff;
 }
 .hero .item {
-  margin: auto;
-  height: 8vh;
+  margin-bottom: 0.7rem;
+  margin-left: 2.5%;
+  height: 7vh;
   width: 95%;
   border: 1px solid rgb(192, 183, 183);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
 }
-.hero .item p {
+
+.hero .item .p {
   margin-left: 1rem;
+  font-size: 1 px;
 }
+
 .hero .item button {
-  margin-right: 1rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: 0px;
+  color: #fff;
+  margin-left: 0.5rem;
+  width: 5rem;
+  cursor: pointer;
+  margin-right: 1%;
   width: 2rem;
   background-color: red;
 }
-#first {
+
+.first {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin-top: 4vh;
 }
-#last {
+.last {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -97,4 +108,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.hide {
+  display: none;
 }

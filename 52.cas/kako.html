@@ -11,32 +11,17 @@
   <body>
     <div class="nav">
       <h1 id="logo">Item Lister</h1>
-      <input type="text" placeholder="Search Items..." />
+      <input type="text" id="filter" placeholder="Search Items..." />
     </div>
     <div class="main">
       <div class="hero">
         <h1>Add Items</h1>
         <br />
-        <input type="text" />
-        <button type="button">Submit</button><br />
+        <form action="">
+          <input type="text" id="inpt" />
+          <button type="submit" id="btn">Submit</button><br />
+        </form>
         <h1>Items</h1>
-
-        <div class="item" id="first">
-          <p>Item1</p>
-          <button type="button">X</button>
-        </div>
-        <div class="item">
-          <p>Item2</p>
-          <button type="button">X</button>
-        </div>
-        <div class="item">
-          <p>Item3</p>
-          <button type="button">X</button>
-        </div>
-        <div class="item" id="last">
-          <p>Item4</p>
-          <button type="button">X</button>
-        </div>
       </div>
     </div>
   </body>

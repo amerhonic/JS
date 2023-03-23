@@ -1,191 +1,247 @@
-// console.dir(document);
+// // console.dir(document);
 
-// console.log(document.domain);
-// console.log(document.URL);
-// console.log(document.title);
-
-// document.title = "New Title";
+// // console.log(document.domain);
+// // console.log(document.URL);
 // // console.log(document.title);
 
-// // console.log(document.body);
-// // console.log(document.all);
-// // const headerTitle = document.all[10];
-// // console.log(headerTitle);
+// // document.title = "New Title";
+// // // console.log(document.title);
 
-// // headerTitle.textContent = "new logo";
-// // headerTitle.innerHTML = "<h1>new logo</h1>";
+// // // console.log(document.body);
+// // // console.log(document.all);
+// // // const headerTitle = document.all[10];
+// // // console.log(headerTitle);
 
-// // console.log(document.forms);
-// // console.log(document.images);
+// // // headerTitle.textContent = "new logo";
+// // // headerTitle.innerHTML = "<h1>new logo</h1>";
 
-// // GET ELEMENT BY ID
+// // // console.log(document.forms);
+// // // console.log(document.images);
 
-// // const headerTitle = document.getElementById("logo");
-// // console.log(headerTitle);
+// // // GET ELEMENT BY ID
 
-// // headerTitle.textContent = "new logo";
-// // headerTitle.innerHTML = "<em>new logo</em>";
+// // // const headerTitle = document.getElementById("logo");
+// // // console.log(headerTitle);
 
-// // PROMENA STILOVA
+// // // headerTitle.textContent = "new logo";
+// // // headerTitle.innerHTML = "<em>new logo</em>";
 
-// // headerTitle.style.borderBottom = "solid 3px #000";
+// // // PROMENA STILOVA
 
-// // GET ELEMENTS BY CLASS NAME
+// // // headerTitle.style.borderBottom = "solid 3px #000";
 
-// // const containers = document.getElementsByClassName("container");
-// // // console.log(container);
-// // const container = containers[0];
-// // container.style.backgroundColor = "#ABABAB";
-// // container.style.border = "1px solid #f00";
+// // // GET ELEMENTS BY CLASS NAME
 
-// // GET ELEMENTS BY TAG NAME
+// // // const containers = document.getElementsByClassName("container");
+// // // // console.log(container);
+// // // const container = containers[0];
+// // // container.style.backgroundColor = "#ABABAB";
+// // // container.style.border = "1px solid #f00";
 
-// const listItems = document.getElementsByTagName("li");
-// // console.log(listItems);
+// // // GET ELEMENTS BY TAG NAME
 
-// // listItems.style.color = "blue"; ne radi na taj nacin, vec mora kroz iteraciju
+// // const listItems = document.getElementsByTagName("li");
+// // // console.log(listItems);
 
-// // for (let i = 0; i < listItems.length; i++) {
-// //   if (i === 1) {
-// //     listItems[i].style.color = "brown";
-// //   } else {
-// //     listItems[i].style.color = "blue";
-// //   }
-// // }
+// // // listItems.style.color = "blue"; ne radi na taj nacin, vec mora kroz iteraciju
 
-// // QUERY SELECTOR
+// // // for (let i = 0; i < listItems.length; i++) {
+// // //   if (i === 1) {
+// // //     listItems[i].style.color = "brown";
+// // //   } else {
+// // //     listItems[i].style.color = "blue";
+// // //   }
+// // // }
 
-// const firstLogoId = document.querySelector("#logo");
-// const firstCont = document.querySelector(".container");
-// const firstLi = document.querySelector("li");
+// // // QUERY SELECTOR
 
-// // console.log(firstLogoId);
-// // console.log(firstCont);
-// // console.log(firstLi);
+// // const firstLogoId = document.querySelector("#logo");
+// // const firstCont = document.querySelector(".container");
+// // const firstLi = document.querySelector("li");
 
-// // firstLi.textContent = "first item";
+// // // console.log(firstLogoId);
+// // // console.log(firstCont);
+// // // console.log(firstLi);
 
-// // const input = document.querySelector("input");
-// // input.value = "Hello World";
+// // // firstLi.textContent = "first item";
 
-// const input2 = document.querySelector("input[type='email']");
-// // input2.value = "test@test.com";
-// // input2.placeholder = "Unesite vasu email adresu";
+// // // const input = document.querySelector("input");
+// // // input.value = "Hello World";
 
-// // QUERY SELECTOR ALL
+// // const input2 = document.querySelector("input[type='email']");
+// // // input2.value = "test@test.com";
+// // // input2.placeholder = "Unesite vasu email adresu";
 
-// const listItems2 = document.querySelectorAll("li");
-// // console.log(listItems2);
+// // // QUERY SELECTOR ALL
 
-// // const evenLi = document.querySelectorAll("li:nth-child(even)");
-// // const oddLi = document.querySelectorAll("li:nth-child(odd)");
+// // const listItems2 = document.querySelectorAll("li");
+// // // console.log(listItems2);
 
-// // for (let i = 0; i <= oddLi.length; i++) {
-// //   oddLi[i].style.backgroundColor = "blue";
-// //   evenLi[i].style.backgroundColor = "orange";
-// // }
+// // // const evenLi = document.querySelectorAll("li:nth-child(even)");
+// // // const oddLi = document.querySelectorAll("li:nth-child(odd)");
 
-// // parentNode
+// // // for (let i = 0; i <= oddLi.length; i++) {
+// // //   oddLi[i].style.backgroundColor = "blue";
+// // //   evenLi[i].style.backgroundColor = "orange";
+// // // }
+
+// // // parentNode
+
+// // // const title = document.getElementById("add");
+// // // console.log(title.parentNode);
+
+// // // parentElement
 
 // // const title = document.getElementById("add");
-// // console.log(title.parentNode);
+// // console.log(title.parentElement);
 
-// // parentElement
+// // // childNodes   (vraca sve elemente i razmake)
 
-// const title = document.getElementById("add");
-// console.log(title.parentElement);
+// // // const container = document.querySelector(".container");
+// // // console.log(container.childNodes);
 
-// // childNodes   (vraca sve elemente i razmake)
+// // // children (vraca samo elemente)
+
+// // // const container = document.querySelector(".container");
+// // // console.log(container.children);
+
+// // // firstElementChild
 
 // // const container = document.querySelector(".container");
-// // console.log(container.childNodes);
+// // console.log(container.firstElementChild);
 
-// // children (vraca samo elemente)
+// // // lastElementChild
+// // // nextElementSibling
+// // // previousElementSibling
 
-// // const container = document.querySelector(".container");
-// // console.log(container.children);
+// // // createElement
 
-// // firstElementChild
+// // const newDiv = document.createElement("div");
 
-// const container = document.querySelector(".container");
-// console.log(container.firstElementChild);
+// // // add class
 
-// // lastElementChild
-// // nextElementSibling
-// // previousElementSibling
+// // newDiv.className = "newDiv";
 
-// // createElement
+// // // add id
 
-// const newDiv = document.createElement("div");
+// // newDiv.id = "newId";
 
-// // add class
+// // const textForNewDiv = (document.createTextNode = "Hello World");
 
-// newDiv.className = "newDiv";
+// // newDiv.append(textForNewDiv);
 
-// // add id
+// // container.appendChild(newDiv);
 
-// newDiv.id = "newId";
-
-// const textForNewDiv = (document.createTextNode = "Hello World");
-
-// newDiv.append(textForNewDiv);
-
-// container.appendChild(newDiv);
-
-// input2.setAttribute("placeholder", "Unesite vasu email adresu");
+// // input2.setAttribute("placeholder", "Unesite vasu email adresu");
 
 
 
 
 
-///             NASTAVAK                 ///
+// ///             NASTAVAK                 ///
 
 
 
-// EVENTS 
+// // EVENTS 
 
 
 
 
-let button = document.querySelector("button");
-button.addEventListener("click" , buttonClicked)
+// let button = document.querySelector("button");
+// button.addEventListener("click" , buttonClicked)
 
-function buttonClicked(event) {
+// function buttonClicked(event) {
    
-   button.style.backgroundColor="red";
-   button.style.color = "purple";
-} 
+//    button.style.backgroundColor="red";
+//    button.style.color = "purple";
+// } 
 
-//ima mouseleave , mouseup , mouseenter , mousemove,keypress
-newDiv.addEventListener("dblclick" , runEvent);
-function runEvent (e) {
-    console.log("Type of event" + e.type)
-}
-
-
-
-let inputs = document.querySelectorAll("input")
-let input = inputs[1];
-// console.log(input);
-
-input.addEventListener("keypress" , getValue);
-function getValue (e) {
-    let itemValue = e.target.value;
-    console.log(itemValue)
-}
+// //ima mouseleave , mouseup , mouseenter , mousemove,keypress
+// newDiv.addEventListener("dblclick" , runEvent);
+// function runEvent (e) {
+//     console.log("Type of event" + e.type)
+// }
 
 
-let form = document.querySelector("form");
-form.addEventListener("submit" , getValues);
-function getValues (e) {
-    e.preventDefaults();
-    let inputs = document.querySelectorAll("input");
-    let itemName = inputs[1].value;
-    let email = inputs[2].value;
-    console.log(itemName)
-    console.log(email)
-    inputs[1].value = "";
-    inputs[2].value = "";
+
+// let inputs = document.querySelectorAll("input")
+// let input = inputs[1];
+// // console.log(input);
+
+// input.addEventListener("keypress" , getValue);
+// function getValue (e) {
+//     let itemValue = e.target.value;
+//     console.log(itemValue)
+// }
+
+
+// let form = document.querySelector("form");
+// form.addEventListener("submit" , getValues);
+// function getValues (e) {
+//     e.preventDefaults();
+//     let inputs = document.querySelectorAll("input");
+//     let itemName = inputs[1].value;
+//     let email = inputs[2].value;
+//     console.log(itemName)
+//     console.log(email)
+//     inputs[1].value = "";
+//     inputs[2].value = "";
     
-}
+// }
+
+
+
+
+
+const input = document.querySelector("#inpt");
+const button1 = document.querySelector("#btn");
+const list = document.querySelector(".hero");
+const deleteBtn = document.querySelector(".buttons1");
+const filter = document.querySelector("#filter");
+const divs = document.querySelectorAll(".p");
+const arr = [];
+button1.addEventListener("click", function (event) {
+  event.preventDefault();
+  if (input.value != "") {
+    const div = document.createElement("div");
+    div.classList.add("item");
+    const newItem = document.createElement("p");
+    newItem.innerText = input.value;
+    newItem.classList.add("p");
+    div.appendChild(newItem);
+    list.appendChild(div);
+    input.value = "";
+    const newBtn = document.createElement("button");
+    newBtn.classList.add("buttons1"); //pricam ti pricu
+    const newText = document.createElement("span");
+    newText.innerText = "X";
+    newText.classList.add("btn-text");
+    newBtn.appendChild(newText);
+    div.appendChild(newBtn);
+    arr.push(newItem.innerText);
+  }
+
+  var deleteBtns = document.querySelectorAll(".buttons1");
+  for (var i = 0; i < deleteBtns.length; i++) {
+    deleteBtns[i].addEventListener("click", function () {
+      this.parentElement.remove();
+    });
+  }
+});
+
+filter.addEventListener("input", function (event) {
+  const value = document.querySelector("#filter");
+  const text1 = value.value.toLowerCase();
+  const list = document.querySelectorAll("p");
+  list.forEach((item) => {
+    let text = item.textContent.toLowerCase();
+
+    if (!text.includes(text1)) item.parentElement.style.display = "none";
+  });
+  list.forEach((item) => {
+    let text = item.textContent.toLowerCase();
+
+    if (text.includes(text1)) item.parentElement.style.display = "";
+  });
+});
 
